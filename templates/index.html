@@ -1,11 +1,73 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-<section class="flex flex-col items-center bg-[#D9C2A7] border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-    <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/static/headshot_transparent.png" alt="">
-    <div class="flex flex-col justify-between p-4 leading-normal">
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+<section class="flex w-full justify-start">
+    <div class="flex flex-col items-center bg-[#D9C2A7] border border-[#040D02] rounded-lg shadow md:flex-row w-2/3 hover:bg-gray-100">
+        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="/static/headshot_transparent.png" alt="">
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#203359]">Kevin Denny</h5>
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">Data Analyst and Python Web Developer</h5>
+            <p class="mb-3 font-normal text-[#46658C]">With 12 years in data analysis, I focus on creating interactive,
+                cloud-based web apps that make data accessible and actionable. Using Python, I leverage Pandas for data
+                analysis and cleaning, and frameworks like Flask and Sanic for efficient web development, combining data
+                insights with seamless user experiences.</p>
+        </div>
     </div>
 </section>
+
+<section class="flex w-full justify-end ">
+    <div class="w-full h-auto">
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="lineAC" d="M 50 0 Q 50 50 100 50" stroke="#D9C2A7" stroke-width="6" vector-effect="non-scaling-stroke" fill="none"/>
+        </svg>
+    </div>
+    <div class="grid grid-cols-1 items-center mt-10 bg-[#D9C2A7] border border-[#040D02] rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100">
+        <h5 class="mb-2 p-4 text-2xl font-bold tracking-tight text-[#203359]">History</h5>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">US Navy: Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a new process for tracking units of interest, by exploring multiple data sources and analyzing transit activity</p>
+            <p class="mb-3 font-normal text-[#46658C]">Compiled over 500 data-driven reports that impacted tactical decision-making</p>
+        </div>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">Life Center: Data Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a new process for tracking units of interest, by exploring multiple data sources and analyzing transit activity</p>
+            <p class="mb-3 font-normal text-[#46658C]">Compiled over 500 data-driven reports that impacted tactical decision-making</p>
+        </div>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">Support Works Housing: Data Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a web app that compiled 20 spreadsheets into a single easy to maintain system used to monitor and manage grant budgets</p>
+            <p class="mb-3 font-normal text-[#46658C]">Developed more than 10 ETL processes to streamline data processing and aid in the transition to a new software vendor.</p>
+            <p class="mb-3 font-normal text-[#46658C]">Produced over 100 adhoc reports facilitating grant renewals and talking points</p>
+        </div>
+    </div>
+</section>
+
+<section class="flex w-full justify-start ">
+
+    <div class="grid grid-cols-1 items-center mt-10 bg-[#D9C2A7] border border-[#040D02] rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100">
+        <h5 class="mb-2 p-4 text-2xl font-bold tracking-tight text-[#203359]">Projects</h5>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">US Navy: Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a new process for tracking units of interest, by exploring multiple data sources and analyzing transit activity</p>
+            <p class="mb-3 font-normal text-[#46658C]">Compiled over 500 data-driven reports that impacted tactical decision-making</p>
+        </div>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">Life Center: Data Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a new process for tracking units of interest, by exploring multiple data sources and analyzing transit activity</p>
+            <p class="mb-3 font-normal text-[#46658C]">Compiled over 500 data-driven reports that impacted tactical decision-making</p>
+        </div>
+        <div class="flex flex-col justify-between p-4 leading-normal">
+            <h5 class="mb-2 text-l font-medium tracking-tight text-[#203359]">Support Works Housing: Data Analyst</h5>
+            <p class="mb-3 font-normal text-[#46658C]">Developed a web app that compiled 20 spreadsheets into a single easy to maintain system used to monitor and manage grant budgets</p>
+            <p class="mb-3 font-normal text-[#46658C]">Developed more than 10 ETL processes to streamline data processing and aid in the transition to a new software vendor.</p>
+            <p class="mb-3 font-normal text-[#46658C]">Produced over 100 adhoc reports facilitating grant renewals and talking points</p>
+        </div>
+    </div>
+    <div class="w-full h-auto">
+        <svg width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="lineAC" d="M 50 0 Q 50 50 0 50" stroke="#D9C2A7" stroke-width="6" vector-effect="non-scaling-stroke" fill="none"/>
+        </svg>
+    </div>
+</section>
+
 {% endblock %}
