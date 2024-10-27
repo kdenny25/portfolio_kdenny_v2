@@ -14,16 +14,16 @@
   inset: 0;
 
   offset-path: url(#my_path);
-  animation: offsetDistance linear(.5, .75, 1) forwards;
+  animation: offsetDistance linear(0, .10, 1) forwards;
   animation-timeline: --container;
   animation-range:
-    exit-crossing 50%
-    entry-crossing 110%;
+    exit-crossing -50%
+    entry-crossing 300%;
 }
 
 @keyframes offsetDistance {
   from {
-    offset-distance: 50%;
+    offset-distance: 0%;
   }
   to {
     offset-distance: 100%;
